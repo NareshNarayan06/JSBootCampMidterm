@@ -4,7 +4,7 @@ const {
   findShortestWord,
 } = require('./shortestWord');
 
-describe('findShortestWord', () => {
+describe.only('findShortestWord', () => {
   it('is a function', () => {
     expect(typeof findShortestWord).to.equal('function');
   });

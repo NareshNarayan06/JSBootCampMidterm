@@ -4,7 +4,7 @@ const {
   roundToNext5,
 } = require('./roundToNext5');
 
-describe('roundToNext5', () => {
+describe.only('roundToNext5', () => {
   it('is a function', () => {
     expect(typeof roundToNext5).to.equal('function');
   });

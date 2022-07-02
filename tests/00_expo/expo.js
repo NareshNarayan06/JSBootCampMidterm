@@ -1,5 +1,10 @@
 // Do not use Math.pow() in your solution.
-function expo() {
+function expo(base,exponent) {
+    let result = 1 ;
+  for (let i = 1 ; i <= exponent ; i++){
+    result *= base;
+  }
+ return result;
 
 }
 
