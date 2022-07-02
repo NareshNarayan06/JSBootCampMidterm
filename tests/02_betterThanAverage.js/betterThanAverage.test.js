@@ -4,7 +4,7 @@ const {
   betterThanAverage,
 } = require('./betterThanAverage');
 
-describe.only('betterThanAverage', () => {
+describe('betterThanAverage', () => {
   it('is a function', () => {
     expect(typeof betterThanAverage).to.equal('function');
   });
